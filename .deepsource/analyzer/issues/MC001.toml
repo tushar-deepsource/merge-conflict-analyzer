@@ -1,0 +1,7 @@
+title = "Possible merge conflict detected"
+category = "bug-risk"
+severity = "major"
+description = """
+You might have checked-in a merge conflict to your codebase.
+"""
+recommended = true
