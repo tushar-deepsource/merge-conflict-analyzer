@@ -18,7 +18,7 @@ for filepath in get_files(codepath):
                 issue = make_issue(
                     issue_code="MC001",
                     issue_txt="Possible merge conflict in file",
-                    filepath=filepath,
+                    filepath=filepath.replace(codepath + '/', ''),
                     line=line_number
                 )
                 issues.append(issue)
