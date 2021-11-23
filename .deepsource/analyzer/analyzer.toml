@@ -1,5 +1,5 @@
 name = "Merge Conflict checker"
-description = "Detect merge conflicts in your code"
+description = "Detect merge conflicts in your code."
 analysis_command = "python3 /app/analyze.py"
 category = "language"
 visibility = "public"
